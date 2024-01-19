@@ -1,10 +1,12 @@
 .foot{
     background-color: var(--backgroud-green);
     height: 18rem;
+    margin-top: -1rem;
 }
 .foot__options{
     display: flex; 
-    list-style-type:none
+    list-style-type:none;
+    padding-top: 2rem;
 }
 
 .foot__options li{
@@ -14,4 +16,20 @@
 .foot__options li a{
     text-decoration: none;
     color: black;
+}
+.foot__networks{
+    display: flex;
+}
+.foot__networks li{
+    list-style-type:none;
+    margin: 0 1rem
+}
+.foot__networks li a:hover{
+    background-color: var(--background-white);
+
+}
+
+.foot__section{
+    display: grid;
+    grid-template-columns: 80% 20%;
 }

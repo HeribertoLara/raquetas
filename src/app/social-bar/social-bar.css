@@ -1,0 +1,7 @@
+.social-bar {
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+  }
+  
+  .social-bar:hover {
+    transform: scale(1.2); 
+  }

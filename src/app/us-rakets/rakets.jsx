@@ -9,12 +9,7 @@ const UsRackets = () => {
         <article className="raket">
             <div className="raket__ball">
                 <Galery/>
-                {/* <Image src={ball} alt="ball" className="raket__ball-img"/>
-                <div className="raket__ball-text">
-                    <h2>Nuestras Raquetas</h2>
-                    <p>Conoce nuestras raquetas y</p>
-                    <p> Aprende a jugar Tennis como un profesional</p>
-                </div> */}
+
             </div>
             <section className="raket__galery">
                 <Image src={ raqueta } alt="raqueta"/>

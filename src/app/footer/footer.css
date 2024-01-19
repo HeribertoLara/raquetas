@@ -1,0 +1,17 @@
+.foot{
+    background-color: var(--backgroud-green);
+    height: 18rem;
+}
+.foot__options{
+    display: flex; 
+    list-style-type:none
+}
+
+.foot__options li{
+    margin: 10px;
+}
+
+.foot__options li a{
+    text-decoration: none;
+    color: black;
+}

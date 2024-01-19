@@ -1,0 +1,46 @@
+.menu{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    place-items: center;
+    width: 100%;
+}
+
+.menu__options{
+    display: flex;
+    list-style-type:none
+}
+
+.menu__options li{
+    margin: 1rem 1rem
+}
+
+.menu__options li a{
+    color: var(--bakcground-white);
+    text-decoration: none;
+}
+
+.menu-hamburguer{
+    display: none;
+    
+   
+}
+
+@media  only screen and (max-width: 768px) {
+    .menu{
+        display:block;
+        
+
+
+    }
+    .menu__options{
+        display: display block;
+    }
+   .menu-hamburguer{
+    display: block;
+    background-color: transparent;
+    color: var(--bakcground-white);
+    border: none;
+    right: 0;
+   }
+
+  }

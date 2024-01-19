@@ -1,0 +1,54 @@
+.history{
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+}
+
+.history__title{
+    color: var(--font-yellow);
+    font-size: 1rem;
+    text-align: right;
+    padding-top: 1.5rem;
+}
+
+.history__section{
+    padding-left: 1rem;
+}
+
+.history__section h2{
+    font-weight: 400;
+}
+
+.history__button{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    place-items: center;
+    height: 2rem;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 3rem;
+    background-color: transparent;
+    border: solid 2px var(--border-gray);
+    margin: 4.5rem 5rem 5rem 0;
+}
+
+.history__button:hover{
+    border:solid 2px (--background-orange)
+}
+
+@media  only screen and (max-width: 768px) {
+    .history{
+        display: grid;
+        grid-template-columns: 1fr
+    }
+    .history__title{
+        text-align: left;
+        margin-left:1rem ;
+
+    }
+
+    .history__button{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    
+  }

@@ -1,0 +1,51 @@
+.raket{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%
+}
+
+.raket__ball{
+    grid-column: 1/1;
+    position: relative;
+    
+}
+/* .raket__ball-img{
+    max-width: 100%;
+} */
+.raket__ball-text{
+    position: absolute;
+    bottom: 50%;
+    left: 10px;
+    color: var(--bakcground-white);
+}
+
+.raket__galery{
+    grid-column: 2/4;
+    display: flex;
+    overflow-x: scroll; 
+    scroll-snap-type: x mandatory;
+
+}
+.raket__galery img{
+    margin-left: 10px;
+}
+ .raket__galery::-webkit-scrollbar {
+    height: 8px; 
+  }
+  
+  .raket__galery::-webkit-scrollbar-thumb {
+    background-color: #666; /* Color de la barra de desplazamiento */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  .raket__galery::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+  }
+.raket__galery img{
+    width: 100%;
+    height: 100%;
+}
+
+.raket__athlete{
+    grid-column: 1/3;
+    grid-row:2
+}

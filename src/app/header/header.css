@@ -1,0 +1,17 @@
+ .header{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    place-items: center;
+}
+
+@media (max-width: 768px) {
+    .header__logo{
+        display: none;
+    }
+    .header__logo{
+        display: none;
+    }
+    .header__lenguages{
+        display: none;
+    }
+}

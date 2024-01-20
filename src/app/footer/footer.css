@@ -33,3 +33,20 @@
     display: grid;
     grid-template-columns: 80% 20%;
 }
+
+@media only screen and (max-width: 460px) {
+    .foot{
+        margin-top: -1.3rem;
+    }
+    .foot__section{
+        display : grid;
+        grid-template-columns: 1fr;
+        place-items: center
+    }
+    .foot__section li{
+        margin: 0;
+        padding: 0.5rem;
+    }
+   
+
+ }

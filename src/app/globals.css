@@ -10,6 +10,7 @@ body{
  --backgroud-orange:rgb(225, 97, 47);
  --backgroud-green:rgb(151, 216, 29);
  --border-gray: rgb(80, 82, 83);
+ --background-dark: rgba(42, 42, 43, 0.75);
  --font-text: "Roboto", sans-serif;
  margin: 0;
  padding:0

@@ -18,6 +18,7 @@
 
 .navbar--mobile {
   background-color: var(background-dark);
+  height: 100vh;
 }
 
 .navbar__menu-icon {
@@ -51,7 +52,7 @@
 @media (max-width: 768px) {
   .navbar{
     position: fixed;
-    height: 100vh;
+    
   }
   .navbar__menu-icon {
     display: block;

@@ -28,7 +28,7 @@
     border-radius: 3rem;
     background-color: transparent;
     border: solid 2px var(--border-gray);
-    margin: 4.5rem 5rem 5rem 0;
+    margin: 4.5rem 1rem 5rem 0;
 }
 
 .history__button:hover{
